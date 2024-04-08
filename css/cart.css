@@ -15,12 +15,10 @@
 }
 
 
-
-
 .cart-item-container {
   padding: 0 20px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cart-item-container img {
@@ -42,21 +40,22 @@
   padding-bottom: 10px;
   font-size: 12px;
   font-weight: 700;
-  color: var(--dsc-color-font-secondary);
+  color: #0CAF1D;
 }
 
 .cart-item-descricao {
   padding: 10px 0;
-  color: var(--dsc-color-font-primary);
+  color: #636363;
 }
 
 .cart-item-descricao h3 {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .cart-item-quantity-btn {
-  color: var(--dsc-color-btn-primary);
+  color: #0CAF1D;
   cursor: pointer;
+  
 }
 
 .cart-item-quantity-container p {
