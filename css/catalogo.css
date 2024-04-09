@@ -1,5 +1,9 @@
 @import url("styles.css");
-
+.we-section-title {
+  text-align: center;
+  color: var(--dsc-color-font-primary);
+  font-size: 16px;
+}
 #catalog-section {
   padding: 20px 0;
 }
