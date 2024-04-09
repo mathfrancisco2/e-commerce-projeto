@@ -68,7 +68,9 @@ nav h1{
 .line-bottom {
   border-bottom: 1px solid var(--we-color-card-border);
 }
-
+.mb20 {
+  margin-bottom: 20px;
+}
 .btn-container {
   width: 220px;
   display: grid;
