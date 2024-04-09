@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+:root {
+  --we-color-bg-primary: #e8e8e8;
+  --we-color-bg-secondary: #FFCC00;
+  --we-color-bg-tertiary: #636363;
+
+  --we-color-card-bg: #fff;
+  --we-color-card-border: #d9d9d9;
+
+  --we-color-btn-primary: #3483fa;
+  --we-color-btn-inverse: #fff;
+
+  --we-color-font-primary: #636363;
+  --we-color-font-secondary: #0caf1d;
+  --we-color-font-tertiary: #fff;
+  --we-color-font-placeholder: #d9d9d9;
+
+  --we-color-error: #f33;
+}
+
+
 * {
   box-sizing: border-box;
   font-family: 'Open Sans';
@@ -10,11 +30,11 @@
 
 body {
 
-  background-color: #E8E8E8;
+  background-color:var(--we-color-bg-primary);
 }
 
 header {
-  background-color: #FFE500;
+  background-color: var(--we-color-bg-secondary);
   height: 70px;
   display: flex;
   align-items: center;
@@ -37,12 +57,11 @@ nav {
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  color: #636363;
+  color: var(--we-color-bg-tertiary);
 }
 
 .line-bottom {
-  border-bottom: 1px solid #d9d9d9;
-
+  border-bottom: 1px solid var(--we-color-card-border);
 }
 
 .btn-container {
@@ -66,9 +85,9 @@ nav {
   height: 42px;
   text-align: center;
   border-radius: 4px;
-  border: 1px solid white;
-  background-color: #3483fa;
-  color: #E8E8E8;
+  border: 1px solid var(--we-color-card-bg);
+  background-color: var(--we-color-btn-primary);
+  color: var(--we-color-bg-primary);
 }
 
 .btn-branco {
@@ -76,7 +95,7 @@ nav {
   height: 42px;
   text-align: center;
   border-radius: 4px;
-  background-color: #E8E8E8;
-  color: #3483fa;
-  border: 1px solid #3483fa;
+  background-color: var(--we-color-bg-primary);
+  color: var(--we-color-btn-primary);
+  border: 1px solid var(--we-color-btn-primary);
 }

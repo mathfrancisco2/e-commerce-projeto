@@ -1,6 +1,9 @@
 @import url("style.css");
 
 
+
+
+
 .categoria-container {
   display: flex;
   gap: 20px;
@@ -21,7 +24,6 @@
 
 .produto-detalhe-acima img {
   width: 220px;
-
 }
 
 .produto-detalhe-baixo {
