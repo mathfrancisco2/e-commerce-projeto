@@ -64,7 +64,10 @@ nav {
 nav h1{
   font-size: 24px;
 }
-
+.we-navbar-right {
+  display: flex;
+  align-items: center;
+}
 .line-bottom {
   border-bottom: 1px solid var(--we-color-card-border);
 }
