@@ -74,7 +74,11 @@ nav h1{
 .mt20 {
   margin-top: 20px;
 }
-
+.we-section-title {
+  text-align: center;
+  color: var(--dsc-color-font-primary);
+  font-size: 16px;
+}
 @media (min-width: 576px) {
   .we-section-title {
     text-align: left;
