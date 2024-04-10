@@ -16,7 +16,3 @@
   background-color: var(--we-color-bg-quaternary);
   color: var(--we-color-font-tertiary);
 }
-.we-header-client {
-  background-color: var(--we-color-bg-secondary);
-  color: var(--we-color-font-primary);
-}
