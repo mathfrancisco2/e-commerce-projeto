@@ -79,12 +79,7 @@ nav h1{
   color: var(--dsc-color-font-primary);
   font-size: 16px;
 }
-@media (min-width: 576px) {
-  .we-section-title {
-    text-align: left;
-    font-size: 24px;
-  }
-}
+
 .btn-container {
   width: 220px;
   display: grid;
@@ -121,4 +116,15 @@ nav h1{
   border: 1px solid var(--we-color-btn-primary);
 }
 
+@media (min-width: 576px) {
+  .dsc-btn-page-container {
+    width: 220px;
+  }
+}
 
+@media (min-width: 576px) {
+  .we-section-title {
+    text-align: left;
+    font-size: 24px;
+  }
+}
