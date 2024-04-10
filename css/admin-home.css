@@ -1,5 +1,22 @@
-@import url("styles.css");
+@import url("style.css");
 
 #admin-home-section {
   padding: 20px 0;
+}
+.we-navbar-right {
+  display: flex;
+  align-items: center;
+}
+.we-section-title {
+  text-align: center;
+  color: var(--we-color-font-primary);
+  font-size: 16px;
+}
+.we-header-admin {
+  background-color: var(--we-color-bg-quaternary);
+  color: var(--we-color-font-tertiary);
+}
+.we-header-client {
+  background-color: var(--we-color-bg-secondary);
+  color: var(--we-color-font-primary);
 }
