@@ -74,6 +74,13 @@ nav h1{
 .mt20 {
   margin-top: 20px;
 }
+
+@media (min-width: 576px) {
+  .we-section-title {
+    text-align: left;
+    font-size: 24px;
+  }
+}
 .btn-container {
   width: 220px;
   display: grid;
