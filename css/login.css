@@ -23,6 +23,20 @@
 
 }
 
+.we-menu-items-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.we-menu-items-container img {
+  width: 20px;
+  height: 20px;
+}
+
+
+
 @media (min-width: 576px) {
   #login-section {
     padding: 40px 0;
