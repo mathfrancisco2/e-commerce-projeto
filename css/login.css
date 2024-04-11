@@ -8,10 +8,19 @@
   width: 100%;
   max-width: 360px;
   margin: 0 auto;
-}
+} 
 
-.we-login-form-buttons {
-  width: 100%;
+ .we-login-form-buttons {
+  display: flex;
+  justify-content: center;
+  margin:  auto;
+}
+.we-login-form-buttons>button{
+  display: flex;
+  padding-bottom: 10px ;
+  width: 220px;
+  height: 40px;
+
 }
 
 @media (min-width: 576px) {
