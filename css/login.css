@@ -1,5 +1,8 @@
 @import url("style.css");
 
+body{
+  background-color: aliceblue;
+}
 #login-section {
   padding: 20px 0;
 }

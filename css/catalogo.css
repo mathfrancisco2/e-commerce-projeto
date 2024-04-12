@@ -95,6 +95,15 @@
   /* gap:200px */
 }
 
+.card:hover{
+  border: 1px solid #3483fa;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: azure;
+
+}
+
+
 .we-catalog-card-top {
   display: flex;
   justify-content: center;
