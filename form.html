@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/assets/weshopicon.png">
+  <title>WeShop</title>
+</head>
+<body>
+  <link rel="stylesheet" href="css/product-form.css" />
+  </head>
+  <body>
+    <header class="we-header-admin">
+      <nav class="container">
+        <img src="assets/WeshopSemfundo.svg" alt="Logo">
+        <div class="we-navbar-right">
+          <div class="we-menu-items-container">
+            <div class="we-menu-item">
+              <img src="assets/home.svg" alt="Início" />
+              <p>Início</p>
+            </div>
+            <div class="we-menu-item">
+              <img src="assets/products.svg" alt="Cadastro de produtos" />
+              <p class="we-menu-item-active">Produtos</p>
+            </div>
+          </div>
+          <div class="we-logged-user">
+            <p>Maria Silva</p>
+            <a href="#">Sair</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="product-form-section" class="container">
+        <div class="we-product-form-container">
+          <form class="card we-form">
+            <h2>Dados do produto</h2>
+            <div class="we-form-controls-container">
+              <div>
+                <input class="we-form-control" type="text" placeholder="Nome">
+              </div>
+              <div>
+                <input class="we-form-control" type="text" placeholder="Preço">
+              </div>
+              <div>
+                <input class="we-form-control" type="text" placeholder="Imagem">
+              </div>
+              <div>
+                <select class="we-form-control we-select" required>
+                  <option value="" disabled selected>Categorias</option>
+                  <option value="1">Valor 1</option>
+                  <option value="2">Valor 2</option>
+                </select>
+              </div>
+              <div>
+                <textarea class="we-form-control we-textarea" placeholder="Descrição"></textarea>
+              </div>
+            </div>
+
+            <div class="we-product-form-buttons">
+              <button type="reset" class="btn btn-branco">Cancelar</button>
+              <button type="submit" class="btn btn-azul">Salvar</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+</body>
+</html>
